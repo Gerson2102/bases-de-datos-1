@@ -6,6 +6,7 @@
    	    * [Entidades](#entidades)
    	    * [Atributos](#atributos)
    	    * [Llaves primarias](#llaves-primarias)
+   	    * [Llaves foráneas](#llaves-foráneas)
 <!--te-->
 
 
@@ -59,6 +60,8 @@ create table usuario_snake_case(
 );
 ```
 
+# 
+# Llaves foráneas
 
 
 
