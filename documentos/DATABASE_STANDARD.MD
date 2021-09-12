@@ -2,7 +2,7 @@
 # Índice
    * [Introducción](#introducción)
    * [Justificación](#justificación)
-   * [Descripción del estándar](#descripción del estándar)
+   * [Descripción del estándar](#descripción-del-estándar)
    	    * [Entidades](#entidades)
 <!--te-->
 
