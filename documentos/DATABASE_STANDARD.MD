@@ -62,11 +62,15 @@ create table usuario_snake_case(
 
 # 
 # Llaves foráneas
+En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir las llaves foráneas con el estándar snake_case:
 
 
-
-
-
+```bash
+create table usuario_snake_case(
+	  carnet_id_fk int not null,
+    foreign key (carnet_id)
+);
+```
 
 
 
