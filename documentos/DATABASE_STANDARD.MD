@@ -51,6 +51,14 @@ create table usuario_snake_case(
 
 # 
 # Llaves primarias
+En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir las llaves primarias con el estándar snake_case:
+
+```bash
+create table usuario_snake_case(
+    codigo_libro_pk primary key
+);
+```
+
 
 
 
