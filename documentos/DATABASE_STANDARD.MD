@@ -82,5 +82,27 @@ create table usuario_snake_case(
 
 En los casos en que los datos se envían a una API externa y el desarrollador no tiene control sobre los nombres de las variables, a menudo es necesario utilizar las propiedades de snake_case. Para usar las reglas de notación de puntos y camelcase juntas, sería útil agregar el soporte allowSnakeCase a la regla de notación de puntos. 
 
+```bash
+{
+    "rules": {
+        "camelcase": 2
+        "dot-notation": [2, {"allowSnakeCase": true}]
+    }
+}
+```
+
+Y el comportamiento resultante: 
+
+```bash
+var data = {};
+data.foo_bar = 42; // warning from camelcase
+
+var data = {};
+data["fooBar"] = 42; // warning from dot-notation
+
+var data = {};
+data["foo_bar"] = 42; // no warning
+```
+
 
 
