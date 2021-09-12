@@ -95,13 +95,13 @@ Y el comportamiento resultante:
 
 ```bash
 var data = {};
-data.foo_bar = 42; // warning from camelcase
+data.foo_bar = 42; // advertencia de camelcase
 
 var data = {};
-data["fooBar"] = 42; // warning from dot-notation
+data["fooBar"] = 42; // advertencia de dot-notation
 
 var data = {};
-data["foo_bar"] = 42; // no warning
+data["foo_bar"] = 42; // sin advertencia
 ```
 
 
