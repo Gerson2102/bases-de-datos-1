@@ -4,6 +4,7 @@
    * [Justificación](#justificación)
    * [Descripción del estándar](#descripción-del-estándar)
    	    * [Entidades](#entidades)
+   	    * [Atributos](#atributos)
 <!--te-->
 
 
@@ -31,12 +32,9 @@ Snake case se refiere a un estilo de escritura en el que cada espacio se reempla
 En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir una entidad con el estándar snake_case:
 
 ```bash
-create table Prestamo(
-	carnet_id int not null,
-	codigo_libro int not null,
-	fecha_prestamo date not null
+create table usuario_snake_case(
 );
 ```
-
-
+# 
+# Atributos
 
