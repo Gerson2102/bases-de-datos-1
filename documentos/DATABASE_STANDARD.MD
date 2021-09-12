@@ -37,4 +37,12 @@ create table usuario_snake_case(
 ```
 # 
 # Atributos
+En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir atributos de una entidad con el estándar snake_case:
 
+```bash
+create table usuario_snake_case(
+    carnet_id int not null,
+    codigo_libro int not null,
+    fecha_prestamo date not null
+);
+```
