@@ -26,5 +26,9 @@ En el transcurso de la investigación de este trabajo escrito sobre los estánda
 
 Snake case se refiere a un estilo de escritura en el que cada espacio se reemplaza por un guión bajo (_) y la primera letra de cada palabra escrita en minúsculas. Es una convención de nomenclatura comúnmente utilizada en ciencias de la computación, por ejemplo, para nombres de variables y subrutinas y para nombres de archivos. Un estudio encontró que los lectores pueden reconocer los valores de la escritura de estilo serpiente más rápido que la escritura de estilo camello. Esta notación, cuando se usa en mayúsculas, es común al declarar constantes en lenguajes como PHP o JavaScript. La notación Snake Case en su versión común también se usa a menudo en la declaración de los nombres de los campos en las bases de datos. Además, también se utilizó en la declaración de variables PHP y de hecho sigue siendo el estándar para muchos desarrolladores a la hora de programar plugins o temas para WordPress.
 
+# 
+# Entidades
+En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir una entidad con el estándar snake_case:
+
 
 
