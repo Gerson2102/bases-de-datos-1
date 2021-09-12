@@ -32,9 +32,9 @@ En el ejemplo que se presenta a continuación se muestra la manera en la que se 
 
 ```bash
 create table Prestamo(
-	carnet_id int not null,
-    codigo_libro int not null,
-    fecha_prestamo date not null
+	$carnet_id int not null,
+        $codigo_libro int not null,
+        $fecha_prestamo date not null
 );
 ```
 
