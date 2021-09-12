@@ -7,6 +7,7 @@
    	    * [Atributos](#atributos)
    	    * [Llaves primarias](#llaves-primarias)
    	    * [Llaves foráneas](#llaves-foráneas)
+   	    * [Excepciones](#excepciones)
 <!--te-->
 
 
@@ -31,6 +32,7 @@ Snake case se refiere a un estilo de escritura en el que cada espacio se reempla
 
 # 
 # Entidades
+
 En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir una entidad con el estándar snake_case:
 
 ```bash
@@ -39,6 +41,7 @@ create table usuario_snake_case(
 ```
 # 
 # Atributos
+
 En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir atributos de una entidad con el estándar snake_case:
 
 ```bash
@@ -52,6 +55,7 @@ create table usuario_snake_case(
 
 # 
 # Llaves primarias
+
 En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir las llaves primarias con el estándar snake_case:
 
 ```bash
@@ -62,6 +66,7 @@ create table usuario_snake_case(
 
 # 
 # Llaves foráneas
+
 En el ejemplo que se presenta a continuación se muestra la manera en la que se debe escribir las llaves foráneas con el estándar snake_case:
 
 
@@ -72,6 +77,10 @@ create table usuario_snake_case(
 );
 ```
 
+# 
+# Excepciones
+
+En los casos en que los datos se envían a una API externa y el desarrollador no tiene control sobre los nombres de las variables, a menudo es necesario utilizar las propiedades de snake_case. Para usar las reglas de notación de puntos y camelcase juntas, sería útil agregar el soporte allowSnakeCase a la regla de notación de puntos. 
 
 
 
