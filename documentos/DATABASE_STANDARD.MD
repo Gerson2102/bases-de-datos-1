@@ -43,9 +43,9 @@ En el ejemplo que se presenta a continuación se muestra la manera en la que se 
 
 ```bash
 create table usuario_snake_case(
-    carnet_id int not null,
-    codigo_libro int not null,
-    fecha_prestamo date not null
+	carnet_id int not null,
+	codigo_libro int not null,
+	fecha_prestamo date not null
 );
 ```
 
@@ -56,7 +56,7 @@ En el ejemplo que se presenta a continuación se muestra la manera en la que se 
 
 ```bash
 create table usuario_snake_case(
-    codigo_libro_pk primary key
+	codigo_libro_pk primary key
 );
 ```
 
@@ -67,8 +67,8 @@ En el ejemplo que se presenta a continuación se muestra la manera en la que se 
 
 ```bash
 create table usuario_snake_case(
-	  carnet_id_fk int not null,
-    foreign key (carnet_id)
+	carnet_id_fk int not null,
+	foreign key (carnet_id)
 );
 ```
 
