@@ -3,7 +3,7 @@
    * [Introducción](#introducción)
    * [Justificación](#justificación)
    * [Descripción del estándar](#descripción del estándar)
-   	* [Entidades](#entidades)
+   	    * [Entidades](#entidades)
 <!--te-->
 
 
