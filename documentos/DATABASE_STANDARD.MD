@@ -5,6 +5,7 @@
    * [Descripción del estándar](#descripción-del-estándar)
    	    * [Entidades](#entidades)
    	    * [Atributos](#atributos)
+   	    * [Llaves primarias](#llaves-primarias)
 <!--te-->
 
 
@@ -46,3 +47,16 @@ create table usuario_snake_case(
     fecha_prestamo date not null
 );
 ```
+
+
+# 
+# Llaves primarias
+
+
+
+
+
+
+
+
+
